@@ -1,0 +1,135 @@
+      .navbar-brand, .nav-link{
+        color: white;
+        font-weight: bold;
+      }
+      .navbar-brand, .nav-link:hover{
+        color: white;
+      }
+      .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255 255 255);}
+    .form-control{
+      background-color: #bebebe;
+      border: 1px solid grey;
+      color: white;
+    }
+    .form-control:hover{
+          background-color: black;
+          color: white;
+    }
+*::-webkit-input-placeholder {
+        color: white;
+}
+::-moz-placeholder {
+        color: white;
+}
+    .btn-outline-success {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #8d8d8d;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #303030;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #e9f6f0;
+    --bs-gradient: none;
+}
+
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #000;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: white;
+}
+.card-main-div{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.image-hero-56905d4d6344741cfcfa7dd8eea61e49 {
+		background: url(https://www.apple.com/newsroom/images/2024/03/apples-worldwide-developers-conference-returns-june-10-2024/tile/Apple-WWDC24-event-announcement-hero-lp.jpg.landing-big.jpg) no-repeat top;
+		background-size: cover;
+		height: 100%;
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),
+	(-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi) {
+		.image-hero-56905d4d6344741cfcfa7dd8eea61e49 {
+			background-image: url(https://www.apple.com/newsroom/images/2024/03/apples-worldwide-developers-conference-returns-june-10-2024/tile/Apple-WWDC24-event-announcement-hero-lp.jpg.landing-big_2x.jpg);
+		}
+	}
+	@media only screen and (max-width: 734px) {
+		.image-hero-56905d4d6344741cfcfa7dd8eea61e49 {
+			background-image: url(https://www.apple.com/newsroom/images/2024/03/apples-worldwide-developers-conference-returns-june-10-2024/tile/Apple-WWDC24-event-announcement-hero-lp.jpg.landing-regular.jpg);
+			height: 100%;
+		}
+	}
+	@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	(max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	(max-width: 734px) and (min-resolution: 144dpi) {
+		.image-hero-56905d4d6344741cfcfa7dd8eea61e49 {
+			background-image: url(https://www.apple.com/newsroom/images/2024/03/apples-worldwide-developers-conference-returns-june-10-2024/tile/Apple-WWDC24-event-announcement-hero-lp.jpg.landing-regular_2x.jpg);
+		}
+	}
+html.js .tile.large-loaded .image {
+    opacity: 1;
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.25, 1) 0ms, opacity 1s cubic-bezier(0.4, 0, 0.25, 1) 0ms;
+}
+
+.tile.tile-hero .image {
+    background-size: contain;
+}
+.tile .image, .tile .viewport-image {
+    transform: scale(1.005);
+}
+.tile .media--video, .tile .image, .tile .viewport-image {
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.25, 1) 0ms;
+}
+.image-hero-56905d4d6344741cfcfa7dd8eea61e49 {
+    background: url(https://www.apple.com/newsroom/images/2024/03/apples-worldwide-developers-conference-returns-june-10-2024/tile/Apple-WWDC24-event-announcement-hero-lp.jpg.landing-big.jpg) no-repeat top;
+    background-size: cover;
+    height: 100%;
+}
+.image {
+    z-index: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.tile .tile__media {
+    direction: ltr;
+}
